@@ -1,0 +1,46 @@
+.QrCodeBlock {
+    display: flex;
+    gap: 1lvh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.QrCodeBlock_QrCode {
+    border: 2px solid black
+}
+
+.QrCodeBlock_QrCode svg path:last-child{
+    fill: black;
+    transition: all .5s;
+}
+
+.QrCodeBlock_QrCode:hover.QrCodeBlock_QrCode svg path:last-child{
+    fill: rgb(236, 100, 55)
+}
+
+.QrCodeBlock_wrapper {
+    display: flex;
+    gap: 1dvh;
+    flex-direction: column;
+    border: 2px solid #1e1e1e;
+}
+
+.QrCodeBlock_QrCode, .QrCodeBlock_wrapper, .QrCodeBlock_wrapper button, .QrCodeBlock_wrapper input {
+    font-size: large;
+    border-radius: 2dvh;
+    padding: 1dvh;
+}
+
+.QrCodeBlock_wrapper button {
+    border: 1px solid black;
+    background: black;
+    color: azure;
+    transition: all .5s;
+    cursor: pointer;
+}
+
+.QrCodeBlock_wrapper button:hover {
+    background: azure;
+    color: black;
+}

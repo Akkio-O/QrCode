@@ -1,12 +1,15 @@
 
-// import {QrCodeGenerator} from './QrCodeGenerator';
-import {QrCodeScanner} from './QrCodeScanner';
+import { QrCodeGenerator } from './QrCodeGenerator';
+import { QrCodeScanner } from './QrCodeScanner';
+import './qrCode.css';
 
 const Layout = () => {
     return (
-        // <QrCodeGenerator/>
-        <QrCodeScanner/>
+        <div className='container'>
+            <QrCodeGenerator />
+            <QrCodeScanner />
+        </div>
     )
 }
 
-export {Layout};
+export { Layout };

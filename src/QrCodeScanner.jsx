@@ -16,11 +16,11 @@ export const QrCodeScanner = () => {
 
     return (
         <div>
-            <Scanner 
-            onScan={scanHandler} 
+            <Scanner
+            onScan={scanHandler}
             allowMultiple
-            // components={settings}
-            styles={stylesSettings} 
+            components={settings}
+            styles={stylesSettings}
             />
         </div>
     )

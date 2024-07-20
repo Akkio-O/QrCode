@@ -1,3 +1,13 @@
+.container {
+    display: flex;
+    gap: 2vw;
+    justify-content: center;
+}
+
+.cameraBlock {
+    text-align: center;
+}
+
 .QrCodeBlock {
     display: flex;
     gap: 1lvh;

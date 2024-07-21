@@ -1,0 +1,23 @@
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1vw;
+}
+
+a {
+    border: 1px solid black;
+    background: black;
+    padding: 1dvh;
+    border-radius: 1dvh;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 1.2rem;
+    transition: .5s;
+}
+a:visited {
+    color: azure;
+}
+a:hover {
+    color: black;
+    background: azure
+}

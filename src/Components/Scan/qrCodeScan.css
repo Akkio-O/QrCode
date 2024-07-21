@@ -1,0 +1,11 @@
+.cameraBlock {
+    border-radius: 1dvh;
+    margin: 0 auto;
+}
+
+.cameraBlock div, .cameraBlock h2 {
+    display: block;
+    text-align: center;
+    margin: 0 auto;
+    height: auto;
+}

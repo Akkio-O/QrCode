@@ -22,3 +22,15 @@ a:hover {
     color: black;
     background: azure
 }
+
+@media (max-width: 768px) {
+    nav {
+      flex-direction: column;
+      gap: 2vh;
+    }
+  
+    a {
+      font-size: 1.2rem;
+      padding: 2dvh; 
+    }
+  }

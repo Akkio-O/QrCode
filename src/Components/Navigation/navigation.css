@@ -6,6 +6,7 @@ nav {
 
 a {
     border: 1px solid black;
+    color: white;
     background: black;
     padding: 1dvh;
     border-radius: 1dvh;

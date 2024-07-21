@@ -14,10 +14,10 @@ const Layout = () => {
             </div>
             <div>
                 <Routes>
-                    <Route path="/generator" element={<QrCodeGenerator />} />
+                    <Route path="/generate" element={<QrCodeGenerator />} />
                     <Route path="/scan" element={<QrCodeScanner />} />
                     <Route path="/scanhistory" element={<ScanHistory />} />
-                    <Route path="/generatorhistory" element={<GenerateHistory />} />
+                    <Route path="/generatehistory" element={<GenerateHistory />} />
                 </Routes>
             </div>
         </div>

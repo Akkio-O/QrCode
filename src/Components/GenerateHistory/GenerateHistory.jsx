@@ -1,18 +1,17 @@
-import { QRCodeSVG } from 'qrcode.react';
-
 import { GENERATE_DATA } from "../../constants";
+import { QRCodeSVG } from 'qrcode.react';
 import './GenerateHistory.css'
 
 export const GenerateHistory = () => {
-    const data = JSON.parse(localStorage.getItem(GENERATE_DATA) || '');
+    const data = JSON.parse(localStorage.getItem(GENERATE_DATA) || '[]');
 
     return (
         <div className='container'>
             <h2>История генераций</h2>
-            {data.map((text, index) => (
+            {data.map((link, index) => (
                 <div key={index} className={'wrapper'}>
-                    <QRCodeSVG value={text} size="200" />
-                    <p>{text}</p>
+                    <QRCodeSVG value={link} size="200" />
+                    <p>{link}</p>
                 </div>
             ))}
         </div>
